@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
+import HeroSlider from './components/HeroSlider/HeroSlider'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <div>
     <Navbar />
     <Hero />
+    <HeroSlider />
     </div>
 
   )

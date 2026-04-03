@@ -1,0 +1,36 @@
+.hero-slider {
+  background-color: #f5f5dc;
+  padding: 50px;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slide-text {
+  flex: 1;
+}
+
+.slide-text h1 {
+  font-size: 40px;
+  color: #0b3d3d;
+}
+
+.slide-text p { 
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.slide-text button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.slide img {
+  width: 400px;
+}

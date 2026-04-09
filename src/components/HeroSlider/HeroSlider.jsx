@@ -7,9 +7,9 @@ import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 
-import p1 from "../../assets/display02.jpeg";
+import p1 from "../../assets/Product02.jpeg";
 import p2 from "../../assets/Display03.png";
-import p3 from "../../assets/display01.jpeg";
+import p3 from "../../assets/Product04.jpeg";
 
 const HeroSlider = () => {
   return (

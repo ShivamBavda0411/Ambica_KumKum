@@ -1,0 +1,49 @@
+.products-preview {
+  padding: 60px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.products-preview h5 {
+  color: gray;
+}
+
+.products-preview h1 {
+  margin-bottom: 40px;
+  color: #0b3d3d;
+}
+
+/* Cards */
+.product-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Button */
+.card button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #0b3d3d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
-import product1 from '../../assets/Product01.jpeg'
-import product2 from '../../assets/Product02.jpeg'
+import product1 from '../../assets/Product03.jpeg'
+import product2 from '../../assets/Product01.jpeg'
 
 const Hero = () => {
   return (

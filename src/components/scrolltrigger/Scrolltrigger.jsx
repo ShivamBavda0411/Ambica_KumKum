@@ -1,62 +1,3 @@
-// import CountUp from "react-countup";
-// import { useInView } from "react-intersection-observer";
-
-// export default function StatsSection() {
-//   const { ref, inView } = useInView({
-//     triggerOnce: true, // run only once
-//     threshold: 0.3,    // when 30% visible
-//   });
-
-//   return (
-//     <div ref={ref} style={styles.container}>
-//       <div style={styles.box}>
-//         <h1>
-//           {inView && <CountUp end={20} duration={2} />}+
-//         </h1>
-//         <p>No of Products</p>
-//       </div>
-
-//       <div style={styles.box}>
-//         <h1>
-//           {inView && <CountUp end={2000} duration={2} />}+
-//         </h1>
-//         <p>Distributors</p>
-//       </div>
-
-//       <div style={styles.box}>
-//         <h1>
-//           {inView && <CountUp end={6000} duration={2} />}+
-//         </h1>
-//         <p>Consumers</p>
-//       </div>
-
-//       <div style={styles.box}>
-//         <h1>
-//           {inView && <CountUp end={40} duration={2} />}+
-//         </h1>
-//         <p>Years of Experience</p>
-//       </div>
-//     </div>
-//   );
-// }
-
-// const styles = {
-//   container: {
-//     display: "flex",
-//     justifyContent: "space-around",
-//     background: "red",
-//     color: "white",
-//     padding: "50px 0",
-//     textAlign: "center",
-//   },
-//   box: {
-//     flex: 1,
-//   },
-// };
-
-
-
-
 import { useState, useEffect, useRef } from "react";
 
 const stats = [
@@ -123,7 +64,7 @@ const styles = {
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "space-around",
-    background: "#cc0000",
+    background: "#f50404",
     color: "white",
     padding: "50px 20px",
     textAlign: "center",
